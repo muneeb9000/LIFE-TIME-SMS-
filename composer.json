@@ -1,0 +1,27 @@
+{
+    "name": "lifetimesms/gateway",
+    "description": "Lifetimesms sms sending module to send business SMS",
+    "type": "library",
+    "homepage": "https://github.com/lifetimesms/gateway",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^12.0@dev"
+    },
+    "authors": [
+        {
+            "name": "lifetimesms",
+            "email": "info@lifetimesms.com"
+        }
+    ],
+    "keywords": [
+        "Lifetimesms"
+    ],
+    "autoload": {
+        "psr-0": {
+            "Lifetimesms": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
